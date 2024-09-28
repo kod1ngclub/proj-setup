@@ -16,13 +16,24 @@ code --install-extension PKief.material-icon-theme
 # extensions :: docs
 code --install-extension pdconsec.vscode-print
 code --install-extension yzane.markdown-pdf
+code --install-extension pdconsec.vscode-print
+code --install-extension ritwickdey.LiveServer
+
+# extensions :: format
+code --install-extension esbenp.prettier-vscode
 
 # extensions :: clang
-code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension llvm-vs-code-extensions.vscode-clangd
+code --install-extension ms-vscode.cmake-tools
 
-# extensions :: python
-code --install-extension ms-python.python
-code --install-extension ms-python.black-formatter
+# extensions :: java
+code --install-extension redhat.java
+code --install-extension vscjava.vscode-gradle
+code --install-extension vmware.vscode-spring-boot
+code --install-extension vscjava.vscode-spring-initializr
 
-# extensions :: clojure
-code --install-extension betterthantomorrow.calva
+# extensions :: kotlin
+code --install-extension mathiasfrohlich.Kotlin
+
+# extensions :: etc lang
+code --install-extension syler.sass-indented
