@@ -7,3 +7,6 @@ sudo apt install -y unzip
 
 # install SDKMAN
 curl -s "https://get.sdkman.io" | bash
+
+# install clojure
+sdk install leiningen

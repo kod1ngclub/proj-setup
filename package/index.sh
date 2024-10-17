@@ -7,10 +7,8 @@ source package/curl.sh
 source package/zip.sh
 source package/unzip.sh
 
-# install java
-source package/sdkman.sh
-source package/java.sh
-source package/kotlin.sh
+# install JVM family
+source package/clojure.sh
 
 # install clang
 source package/clang.sh
