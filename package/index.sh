@@ -2,20 +2,13 @@
 
 sudo apt update
 
-# install utils
-source package/curl.sh
-source package/zip.sh
-source package/unzip.sh
+source package/util/curl.sh
+source package/util/zip.sh
+source package/util/unzip.sh
 
-# install JVM family
-source package/clojure.sh
+source package/lang/clojure.sh
+source package/lang/clang.sh
+source package/lang/node.sh
 
-# install clang
-source package/clang.sh
-
-# install node
-source package/node.sh
-
-# install ide
-source package/nvim.sh
-source package/code.sh
+source package/ide/nvim.sh
+source package/ide/code.sh
