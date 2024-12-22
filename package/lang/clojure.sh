@@ -3,16 +3,11 @@
 JAVA_ID=24.ea.20-open
 
 # install dependencies
+sudo apt install -y openjdk-17-jdk
 sudo apt install -y curl
-sudo apt install -y zip
-sudo apt install -y unzip
+sudo apt install -y rlwrap
 
-# install SDKMAN
-curl -s "https://get.sdkman.io" | bash
-
-# install java and JVM
-sdk install java $JAVA_ID
-sdk use java $JAVA_ID
-
-# install clojure
-sdk install leiningen
+# install clojure & clojure CLI
+curl -L -O https://github.com/clojure/brew-install/releases/latest/download/linux-install.sh
+chmod +x linux-install.sh
+sudo ./linux-install.sh
